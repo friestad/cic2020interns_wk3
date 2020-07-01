@@ -1,4 +1,6 @@
-# cic2020interns_wk3
+# cic2020interns_wk3 - Implementing COVID-19 API
+## Java Mini-Challenge
+https://api.covid19api.com/
 
 ```
 C:.
