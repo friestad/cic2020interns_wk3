@@ -9,27 +9,51 @@ import lombok.Data;
  */
 public @Data class Global {
 
-    @JsonProperty("NewConfirmed")
+    public int getNewConfirmed() {
+		return newConfirmed;
+	}
+
+	public int getTotalConfirmed() {
+		return totalConfirmed;
+	}
+
+	public int getNewDeaths() {
+		return newDeaths;
+	}
+
+	public int getTotalDeaths() {
+		return totalDeaths;
+	}
+
+	public int getNewRecovered() {
+		return newRecovered;
+	}
+
+	@JsonProperty("NewConfirmed")
     @SerializedName("NewConfirmed")
-    private final int newConfirmed;
+    public int newConfirmed;
 
     @JsonProperty("TotalConfirmed")
     @SerializedName("TotalConfirmed")
-    private final int totalConfirmed;
+    public int totalConfirmed;
 
     @JsonProperty("NewDeaths")
     @SerializedName("NewDeaths")
-    private final int newDeaths;
+    public int newDeaths;
 
     @JsonProperty("TotalDeaths")
     @SerializedName("TotalDeaths")
-    private final int totalDeaths;
+    public int totalDeaths;
 
     @JsonProperty("NewRecovered")
     @SerializedName("NewRecovered")
-    private final int newRecovered;
+    public int newRecovered;
 
     @JsonProperty("TotalRecovered")
     @SerializedName("TotalRecovered")
-    private final int totalRecovered;
+    public int totalRecovered;
+
+	public int getTotalRecovered() {
+		return totalRecovered;
+	}
 }

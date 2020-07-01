@@ -19,4 +19,8 @@ public @Data class Summary {
 
     @JsonProperty("Countries")
     private List<Country> countries;
+    
+    public List<Country> getCountries() {
+    	return countries;
+    }
 }

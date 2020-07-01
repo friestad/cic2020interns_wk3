@@ -11,41 +11,121 @@ public @Data class Country {
 
     @JsonProperty("Country")
     @SerializedName("Country")
-    private String country;
+    public String country;
 
     @JsonProperty("CountryCode")
     @SerializedName("CountryCode")
-    private String countryCode;
+    public String countryCode;
 
     @JsonProperty("Slug")
     @SerializedName("Slug")
-    private String slug;
+    public String slug;
 
     @JsonProperty("NewConfirmed")
     @SerializedName("NewConfirmed")
-    private int newConfirmed;
+    public int newConfirmed;
 
     @JsonProperty("TotalConfirmed")
     @SerializedName("TotalConfirmed")
-    private int totalConfirmed;
+    public int totalConfirmed;
 
     @JsonProperty("NewDeaths")
     @SerializedName("NewDeaths")
-    private int newDeaths;
+    public int newDeaths;
 
     @JsonProperty("TotalDeaths")
     @SerializedName("TotalDeaths")
-    private int totalDeaths;
+    public int totalDeaths;
 
     @JsonProperty("NewRecovered")
     @SerializedName("NewRecovered")
-    private int newRecovered;
+    public int newRecovered;
 
     @JsonProperty("TotalRecovered")
     @SerializedName("TotalRecovered")
-    private int totalRecovered;
+    public int totalRecovered;
 
     @JsonProperty("Date")
     @SerializedName("Date")
-    private String date;
+    public String date;
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getCountryCode() {
+		return countryCode;
+	}
+
+	public void setCountryCode(String countryCode) {
+		this.countryCode = countryCode;
+	}
+
+	public String getSlug() {
+		return slug;
+	}
+
+	public void setSlug(String slug) {
+		this.slug = slug;
+	}
+
+	public int getNewConfirmed() {
+		return newConfirmed;
+	}
+
+	public void setNewConfirmed(int newConfirmed) {
+		this.newConfirmed = newConfirmed;
+	}
+
+	public int getTotalConfirmed() {
+		return totalConfirmed;
+	}
+
+	public void setTotalConfirmed(int totalConfirmed) {
+		this.totalConfirmed = totalConfirmed;
+	}
+
+	public int getNewDeaths() {
+		return newDeaths;
+	}
+
+	public void setNewDeaths(int newDeaths) {
+		this.newDeaths = newDeaths;
+	}
+
+	public int getTotalDeaths() {
+		return totalDeaths;
+	}
+
+	public void setTotalDeaths(int totalDeaths) {
+		this.totalDeaths = totalDeaths;
+	}
+
+	public int getNewRecovered() {
+		return newRecovered;
+	}
+
+	public void setNewRecovered(int newRecovered) {
+		this.newRecovered = newRecovered;
+	}
+
+	public int getTotalRecovered() {
+		return totalRecovered;
+	}
+
+	public void setTotalRecovered(int totalRecovered) {
+		this.totalRecovered = totalRecovered;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
 }
