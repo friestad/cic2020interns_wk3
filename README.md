@@ -68,3 +68,27 @@ C:.
 +---resources
     ¦   application.properties                                    -- application properties
 ```
+
+## Libraries and Spring Boot Annotations
+**@Data** - (Lombok) shortcut for getters and setters
+
+**@SpringBootApplication** - indicates the configuration class for your Spring Boot applicatoion 
+**@ComponentScan** - for scanning all classes annotated with the stereotype annotations @Component, @Controller, @Service, and @Repository
+
+**@RestController** - for RESTful web services
+**@RequestMapping** - mapping an HTTP request to a class or method
+
+**@Autowired** - dependency injection
+
+**@ApiOperation** - for Swagger
+**@CrossOrigin** - cross-origin resource sharing
+**@GetMapping** - shortcut for @RequestMapping(method = RequestMethod.GET)
+**@PostMapping** - shortcut for @RequestMapping(method = RequestMethod.POST)
+
+**@ControllerAdvice** -  for handling all exceptions
+
+**@JsonProperty** - used to mark non-standard getter/setter method to be used with respect to json property
+**@SerializedName** - indicates the Java property should be serialized to JSON a specific name
+
+**@Service** - used with classes that provide some business functionalities
+**@Value** - used to inject values into variables and method arguments
