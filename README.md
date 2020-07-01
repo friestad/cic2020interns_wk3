@@ -12,7 +12,7 @@ You are a recently hired full stack developer giving the task of completing an A
 ![Sample User Interface](https://media.github.ibm.com/user/203313/files/8ecc4a00-bb67-11ea-944a-17d4b83d1486)
 
 ### Developer's Notes
-> "Hey, I pretty much finished everything except the comparison API. Pretty easy and I already created the payload. You just need to implement the getComparison method in Covid19ApiServiceImpl to return a the list of countries sorted by the CompareBy enum."
+> "Hey, I pretty much finished everything except the comparison API. Pretty easy and I already created the payload. You just need to implement the **getComparison** method in **Covid19ApiServiceImpl** to return a the list of countries sorted by the CompareBy enum."
 
 > "Oh yeah, I left my Postman collection for you to use."
 
