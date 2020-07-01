@@ -3,6 +3,8 @@
 https://api.covid19api.com/
 
 ## User Story
+ 
+ > As a React Native COVID-19 mobile developer, I want to use an API that I can receive a list of countries where I have provided the countries and whether they are compared by "Total Confirmed", "Total Deaths", or "Total Recovered" so that I can display the list in the mobile application.
 
 ![Sample User Interface](https://media.github.ibm.com/user/203313/files/d7373800-bb66-11ea-971c-46ae01b014a3)
 
