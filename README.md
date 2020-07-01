@@ -2,6 +2,7 @@
 ## Java Mini-Challenge
 https://api.covid19api.com/
 
+## Project Directory Structure 
 ```
 C:.
 +---java
@@ -18,6 +19,7 @@ C:.
 +---resources                                 -- property and yaml files
 ```
 
+## Project Files
 ```
 C:.
 +---java
