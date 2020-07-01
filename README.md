@@ -2,6 +2,10 @@
 ## Java Mini-Challenge
 https://api.covid19api.com/
 
+## User Story
+
+![Sample User Interface](https://media.github.ibm.com/user/203313/files/d7373800-bb66-11ea-971c-46ae01b014a3)
+
 ## Project Directory Structure 
 ```
 C:.
