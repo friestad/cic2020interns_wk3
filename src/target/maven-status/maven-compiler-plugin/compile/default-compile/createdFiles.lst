@@ -1,7 +1,0 @@
-com\ibm\br\cic\internship\covid\service\SummaryService.class
-com\ibm\br\cic\internship\covid\model\Country.class
-com\ibm\br\cic\internship\covid\api\SummaryController.class
-com\ibm\br\cic\internship\covid\Covid19Application.class
-com\ibm\br\cic\internship\covid\model\Summary.class
-com\ibm\br\cic\internship\covid\model\Global.class
-com\ibm\br\cic\internship\covid\service\SummaryServiceImpl.class
