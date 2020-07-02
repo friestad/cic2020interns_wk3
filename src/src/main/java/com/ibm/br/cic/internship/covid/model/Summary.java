@@ -14,13 +14,27 @@ public @Data class Summary {
         this.countries = countries;
     }
 
-    @JsonProperty("Global")
-    private Global global;
+    public Global getGlobal() {
+		return global;
+	}
+
+	public void setGlobal(Global global) {
+		this.global = global;
+	}
+
+	public List<Country> getCountries() {
+		return countries;
+	}
+
+	public void setCountries(List<Country> countries) {
+		this.countries = countries;
+	}
+
+	@JsonProperty("Global")
+    public Global global;
 
     @JsonProperty("Countries")
-    private List<Country> countries;
+	public List<Country> countries;
     
-    public List<Country> getCountries() {
-    	return countries;
-    }
+   
 }
