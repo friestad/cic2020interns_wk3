@@ -42,7 +42,13 @@ public class Covid19ApiServiceImpl implements Covid19ApiService {
 
     @Override
     public Comparison getComparison(List<Country> countries, CompareBy compareBy) {
-        //Your work goes here
+        
+    	try {
+        return new Comparison(countries, compareBy);
+        
+    	}
+    	catch(Exception e) {
         throw new UnsupportedOperationException("Not supported yet.");
+    	}
     }
 }
