@@ -16,9 +16,9 @@ public @Data class Comparison {
 	}
 
 	@JsonProperty("Countries")
-    private List<Country> countries;
+    public List<Country> countries;
 
-    private CompareBy compareBy;
+    public CompareBy compareBy;
 
 	public List<Country> getCountries() {
 		return countries;

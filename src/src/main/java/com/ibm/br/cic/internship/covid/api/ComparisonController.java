@@ -60,6 +60,6 @@ public final class ComparisonController {
       		}
 
         final Comparison comparison = this.covid19ApiService.getComparison($countries, compareBy);
-        return new ResponseEntity<>(comparison, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(comparison, HttpStatus.OK);
     }
 }
