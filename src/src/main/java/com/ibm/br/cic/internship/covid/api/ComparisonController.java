@@ -44,6 +44,7 @@ public final class ComparisonController {
     }
 
     @ApiOperation(value = "Get comparison", response = ResponseEntity.class)
+    
     @CrossOrigin(origins = "*")
     @PostMapping(path = "/comparison", consumes = "application/json", produces = "application/json")
     public ResponseEntity<?> getComparison(@RequestBody ComparisonPayload payload) {
